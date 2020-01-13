@@ -1,3 +1,105 @@
 <resources>
     <string name="app_name">PHCA</string>
+
+
+    <string-array name="blood">
+        <item>O+</item>
+        <item>O-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="title_activity_my_drawer" translatable="false">MyDrawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="action_logout" translatable="false">Logout</string>
+
+    <string name="message_edit_text_hint" translatable="false">Type a text</string>
+
+    <string name="menu_home" translatable="false">Home</string>
+    <string name="menu_gallery" translatable="false">Gallery</string>
+    <string name="menu_slideshow" translatable="false">Slideshow</string>
+    <string name="menu_tools" translatable="false">Tools</string>
+    <string name="menu_share" translatable="false">Share</string>
+    <string name="menu_send" translatable="false">Send</string>
+
+    <string name="create_account"><font color="#00ff00">text</font></string>
+    <string name="email">Email</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="username_login" translatable="false">  Email</string>
+    <string name="password_login" translatable="false">  Password</string>
+    <string name="register">Register</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="notifications" translatable="false">notifications</string>
+    <string name="profile" translatable="false">Profile</string>
+    <string name="message" translatable="false">Message</string>
+    <string name="communicate" translatable="false">Communicate</string>
+    <string name="share" translatable="false">Share</string>
+    <string name="send" translatable="false">Send</string>
+    <string name="weight" translatable="false">Weight</string>
+    <string name="height" translatable="false">Height</string>
+    <string name="calculate_bmi" translatable="false">Calculate BMI</string>
+    <string name="result" translatable="false">Result</string>
+    <string name="join_us" translatable="false">Join us</string>
+    <string name="Pediatrician" translatable="false">Pediatrician</string>
+    <string name="ask_me" translatable="false">ASK ME</string>
+    <string name="add_an_appointment" translatable="false">Add an appointment</string>
+    <string name="location" translatable="false">Location</string>
+    <string name="frist_name" translatable="false">Frist Name</string>
+    <string name="last_name" translatable="false">Last Name</string>
+    <string name="mather_name" translatable="false">Mather Name</string>
+    <string name="phone_number" translatable="false">Phone Number</string>
+    <string name="baby_birthday" translatable="false">Baby Birthday</string>
+    <string name="height_of_baby" translatable="false">Height of Baby</string>
+    <string name="weight_of_baby" translatable="false">Weight of Baby</string>
+    <string name="gender" translatable="false">Gender</string>
+    <string name="male" translatable="false">Male</string>
+    <string name="female" translatable="false">Female</string>
+    <string name="blood_type" translatable="false">Blood Type</string>
+    <string name="special_needs" translatable="false">Special Needs</string>
+    <string name="yes" translatable="false">Yes</string>
+    <string name="new_user_registration" translatable="false">New User Registration</string>
+    <string name="save_changes" translatable="false">Save Change</string>
+    <string name="update_user_profile" translatable="false">Update User Profile</string>
+    <string name="age" translatable="false">Age</string>
+    <string name="edit_profile" translatable="false">Edit Profile</string>
+    <string name="toast_profileupdated" translatable="false">Profile Updated</string>
+    <string name="loading" translatable="false">Loading...</string>
+    <string name="articles" translatable="false">Articles</string>
+    <string name="severely_under_weight" translatable="false">Severely Under Weight</string>
+    <string name="under_weight" translatable="false">Under Weight</string>
+    <string name="normal_weight" translatable="false">Normal Weight</string>
+    <string name="over_weight" translatable="false">Overweight</string>
+    <string name="obese" translatable="false">Obese</string>
+    <string name="bmi_is" translatable="false">BMI is :</string>
+    <string name="the_status_is" translatable="false">The Status is</string>
+    <string name="login_faild" translatable="false">Login Failed</string>
+    <string name="are_u_ped" translatable="false">Are You Pediatrician</string>
+    <string name="connect_with_u" translatable="false">Enter your  Email or mobile phone , We will connect with you.</string>
+    <string name="information_not_exist" translatable="false">Information does not exist</string>
+    <string name="error" translatable="false">Error!</string>
+    <string name="email_password_not_correct" translatable="false">Email or password not correct</string>
+    <string name="registered_successfully" translatable="false">Registered successfully</string>
+    <string name="worn_input_retry" translatable="false">Press again please</string>
+    <string name="vacc_child_home_btn" translatable="false">   Vaccination</string>
+    <string name="CSHCN" translatable="false">CSHCN</string>
+    <string name="children" translatable="false">Children</string>
+    <string name="children_special_heathcare_need" translatable="false">Children Special HeathCare Need</string>
+    <string name="my_children" translatable="false">My Children </string>
+    <string name="my_vaccinations" translatable="false">My Vaccinations</string>
+    <string name="vaccination_name" translatable="false">Vaccination Name :</string>
+    <string name="vaccination_date" translatable="false">Vaccination Date :</string>
+    <string name="status" translatable="false">Status :</string>
+    <string name="show_vaccination_schedule" translatable="false">Show Vaccination schedule</string>
+    <string name="type" translatable="false">Type :</string>
+    <string name="user_name">User Name</string>
+    <string name="conform_password">Conform Password</string>
 </resources>
