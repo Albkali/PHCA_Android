@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.albkali.phca.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_notifications"
+            app:destination="@id/nav_notifications" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.albkali.phca.ui.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_notifications"
+        android:name="com.albkali.phca.ui.notifications.NotificatonsFragment"
+        android:label="@string/notifications"
+        tools:layout="@layout/fragment_notifications" >
+        <action
+            android:id="@+id/action_nav_notifications_to_nav_profile"
+            app:destination="@id/nav_profile" />
+    </fragment>
+
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_EditProfile"-->
+<!--        android:name="com.albkali.phca.ui.EditProfile.EditProfileFragment"-->
+<!--        android:label="@string/edit_profile"-->
+<!--        tools:layout="@layout/fragment_editprofile" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_slideshow"-->
+<!--        android:name="com.example.masood.phca.ui.Home_Ped_Fragment.Home_Ped_Fragment"-->
+<!--        android:label="@string/menu_slideshow"-->
+<!--        tools:layout="@layout/fragment_home_ped" />-->
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.albkali.phca.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.albkali.phca.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+
+</navigation>

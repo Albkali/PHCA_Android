@@ -56,7 +56,7 @@
     <string name="frist_name" translatable="false">Frist Name</string>
     <string name="last_name" translatable="false">Last Name</string>
     <string name="mather_name" translatable="false">Mather Name</string>
-    <string name="phone_number" translatable="false">Phone Number</string>
+    <string name="phone_number" translatable="false">Phone </string>
     <string name="baby_birthday" translatable="false">Baby Birthday</string>
     <string name="height_of_baby" translatable="false">Height of Baby</string>
     <string name="weight_of_baby" translatable="false">Weight of Baby</string>
@@ -100,7 +100,7 @@
     <string name="status" translatable="false">Status :</string>
     <string name="show_vaccination_schedule" translatable="false">Show Vaccination schedule</string>
     <string name="type" translatable="false">Type :</string>
-    <string name="user_name">User Name</string>
+    <string name="user_name"> Name</string>
     <string name="conform_password">Conform Password</string>
     <string name="input_error_name">name required</string>
     <string name="input_error_email">email required</string>

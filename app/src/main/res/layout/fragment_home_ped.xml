@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_centerInParent="true"
+    android:layout_height="match_parent">
+
+    <!--    android:layout_gravity="start"-->
+    <!--    android:layout_gravity="end"-->
+    <!--    android:paddingStart="0dp"-->
+    <!--    Android:paddingEnd="0dp"-->
+    <!--    android:drawableStart="0dp"-->
+    <!--    android:drawableEnd="0dp"-->
+    <!--    android:layout_alignStart="0dp"-->
+    <!--    android:layout_alignEnd="0dp"-->
+    <!--    android:layout_marginStart="0dp"-->
+    <!--    android:layout_marginEnd="0dp"-->
+    <!--    android:layout_alignParentStart="0dp"-->
+    <!--    android:layout_alignParentEnd="0dp"-->
+    <!--    android:layout_toStartOf="0dp"-->
+    <!--    android:layout_toEndOf="0dp"-->
+
+
+    <Button
+        android:id="@+id/vac_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/vaccination"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:onClick="ClickToVaccination2"
+        android:textAlignment="textStart"
+        android:textAllCaps="true"
+        android:textColor="#FA070707"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/ped_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ped_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/btn_child_ped"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:onClick="ClickToPediatrician"
+        android:textAlignment="viewStart"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/cal_btn"
+        app:layout_constraintEnd_toEndOf="@+id/vac_btn"
+        app:layout_constraintStart_toStartOf="@+id/vac_btn"
+        app:layout_constraintTop_toBottomOf="@+id/vac_btn" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="234dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="45dp"
+        android:elevation="3dp"
+        android:text="@string/vacc_child_home_btn"
+        android:textColor="#E91F1C1C"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ped_btn"
+        app:layout_constraintEnd_toEndOf="@+id/ped_btn"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ped_btn" />
+
+    <Button
+        android:id="@+id/cal_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/btn_cal"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:onClick="click_bnt_mbi"
+        android:textAlignment="viewStart"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/sn_btn"
+        app:layout_constraintEnd_toEndOf="@+id/ped_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ped_btn"
+        app:layout_constraintTop_toBottomOf="@+id/ped_btn" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="226dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="50dp"
+        android:elevation="3dp"
+        android:text="@string/calculate_bmi"
+        android:textColor="#E91F1C1C"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cal_btn"
+        app:layout_constraintEnd_toEndOf="@+id/cal_btn"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="@+id/cal_btn"
+        app:layout_constraintTop_toTopOf="@+id/cal_btn" />
+
+    <Button
+        android:id="@+id/sn_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/btn2_sn"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:onClick="ClickToCSHCN"
+        android:textAlignment="viewStart"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/article_btn"
+        app:layout_constraintEnd_toEndOf="@+id/cal_btn"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/cal_btn"
+        app:layout_constraintTop_toBottomOf="@+id/cal_btn" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="217dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="45dp"
+        android:elevation="3dp"
+        android:text="@string/CSHCN"
+        android:textColor="#E91F1C1C"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sn_btn"
+        app:layout_constraintEnd_toEndOf="@+id/sn_btn"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="@+id/sn_btn"
+        app:layout_constraintTop_toTopOf="@+id/sn_btn" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="207dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="45dp"
+        android:elevation="3dp"
+        android:text="@string/articles"
+        android:textColor="#E91F1C1C"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="@+id/article_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/article_btn" />
+
+    <Button
+        android:id="@+id/article_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/btn_ar"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:onClick="ClickToArticle"
+        android:textAlignment="viewStart"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/sn_btn"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toStartOf="@+id/sn_btn"
+        app:layout_constraintTop_toBottomOf="@+id/sn_btn" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="234dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="45dp"
+        android:elevation="3dp"
+        android:text="@string/children"
+        android:textColor="#E91F1C1C"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="@+id/vac_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/vac_btn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

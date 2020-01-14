@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_ped"
+    app:startDestination="@+id/nav_home_ped">
+
+    <fragment
+        android:id="@+id/nav_home_ped"
+        android:name="com.albkali.phca.ui.Home_Ped_Fragment.Home_Ped_Fragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home_ped" >
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_profile_ped"
+        android:name="com.albkali.phca.ui.profile.ProfileFragmentPed"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile_ped" />
+
+    <fragment
+        android:id="@+id/nav_notifications"
+        android:name="com.albkali.phca.ui.notifications.NotificatonsFragment"
+        android:label="@string/notifications"
+        tools:layout="@layout/fragment_notifications" >
+
+    </fragment>
+
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_EditProfile"-->
+<!--        android:name="com.example.masood.phca.ui.EditProfile.EditProfileFragment"-->
+<!--        android:label="EditProfile"-->
+<!--        tools:layout="@layout/fragment_editprofile" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_slideshow"-->
+<!--        android:name="com.example.masood.phca.ui.Home_Ped_Fragment.Home_Ped_Fragment"-->
+<!--        android:label="@string/menu_slideshow"-->
+<!--        tools:layout="@layout/fragment_home_ped" />-->
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.albkali.phca.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.albkali.phca.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+
+</navigation>
